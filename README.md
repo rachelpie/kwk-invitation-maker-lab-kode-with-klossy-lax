@@ -2,7 +2,13 @@
 
 ## Met Gala Invitation Maker
 
-<img src="https://s3.amazonaws.com/after-school-assets/weasley.jpg" width="150" align="left" hspace="10">
+<style type="text/css">
+      img {margin-bottom: 20px}
+</style>
+
+<img src="https://s3.amazonaws.com/upperline/curriculum-assets/metGala.png" align="left" hspace="10">
+
+
 
 The Met Gala is rapidly approaching and that means invitations have to go out as soon as possible! Celebrities are eagerly waiting to see if they'll get the invite - who will be on the guest list for this year's hottest event?
 
@@ -51,7 +57,7 @@ name_of_show = "The Tonight Show"
 show_host = "Jimmy Fallon"
 puts "In May, Karlie was on #{name_of_show} with #{show_host}!"
 
-=> "In May, Karlie was on The Tonight Show with Jimmy Fallow!"
+=> "In May, Karlie was on The Tonight Show with Jimmy Fallon!"
 
 ```
 
@@ -82,32 +88,33 @@ gala_invitation = "The Museum of Modern Art invites you to their annual gala on 
 The Met plans to use this invitation but update it to the correct data. Instead of the Museum of Modern art, the gala takes place at **The Metropolitan Museum**. The gala will take place on Saturday May 13th, 2017. In `invitation.rb` use `.gsub`s to customize the original invitation. Remember to use `puts` to output your solution to the screen.
 
 ### Challenge 2 (using string interpolation):
-It's 1998 and time for Ginny's graduation. Ron wants to help his little sis out. Instead of using gsub, let's use string interpolation to change the content of the invitation. In your text editor, open the file called `ginny_invitation.rb`. You'll code your solution in that file.
 
-Copy Percy's invitation into ginny_invitation.rb again.
+<img src="https://s3.amazonaws.com/upperline/curriculum-assets/invitations.png" width="150" align="left" hspace="10">
+
+Next year, and every year after that, we want to update our invitation in a very efficient manner. Instead of using gsub, let's use string interpolation to change the content of the invitation. In your text editor, open the file called `metgala_invitation.rb`. You'll code your solution in that file.
+
+<br> 
 
 ```ruby
-invitation = "The family of Percy Weasley proudly invite you to their graduation commencement on Saturday the 22nd of May 1993. Festivities will be held at The Burrow. See you then!"
+gala_invitation = "The Museum of Modern Art invites you to their annual gala on Sunday the 22nd of May 2015. Festivities will be held at the MoMA at 11 W 53rd St, New York, NY 10019. See you then!"
 ```
 
-Now that you know what string interpolation is, assign the following content from Percy's invitation to variables in `ginny_invitation.rb`:
+Now that you know what string interpolation is, assign the following content from the invitation to variables in `metgala_invitation.rb`:
 
-1. name, 'Percy'
-2. the day, 'Saturday'
-3. the date, '22nd'
-4. the year, '1993' 
+1. the day, 'Sunday'
+2. the date, '22nd'
+3. the year, '2015'
 
-Now that we have Percy's information, it's time to change the value of these variables to reflect Ginny's info. Ginny plans to have her party on May 17th, 1998 (Sunday).
+This may seem like it's added work, to separate our content into these 3 variables then interpolate them using #{}, but in a short moment you will see how this extra work in the beginning will save us time updating our invitation for future galas.  
 
-Use string interpolation and the variables you just created to customize Percy's invitation for Ginny. As in Challenge 1, you'll want to use puts to print out your solution to the screen.
+Now that we have the parts of the invitation that change seperated into variables, it's time to change the value of these variables to reflect next year's info. The 2017 Met Gala is being planned for May 26th, 2017 (Friday).
+
+Use string interpolation and the variables you just created to customize the old invitation for the new 2017 invitation. As in Challenge 1, you'll want to use puts to print out your solution to the screen.
 
 ### S-T-R-E-T-C-H Challenges!
 If you've made this far, here are some additional challenges for you to complete:
 
-1.  What if Ginny wants to put her name and day of her graduation IN ALL CAPS.  How can you do this?
-2.  Now that her name and day are in all caps she decides she doesn't like it and only wants to capitalize the first letter.  How can you do this?
-3.  Next she doesn't want her date and day to be strings.  She wants to turn them into numbers.  Can you fix this for her?
+1.  What if MoMa wants the day of the week to be IN ALL CAPS in order to emphasize that in 2017 the gala will be held on FRIDAY instead of Saturday.  How can you do this? (Avoid just typing FRIDAY in replace of Friday, use a built in Ruby Method.)
+2.  Now that day is in all caps  MoMa decides they don't like it and only wants you to capitalize the first letter.  How can you do this?
+3.  Next MoMa doesn't want the date and day to be strings. They want to turn them into numbers.  Can you fix this for them?
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-invitation-maker-lab' title='Graduation Invitation Maker'>Graduation Invitation Maker</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/hs-invitation-maker-lab'>Pre-College Lab: Invitation maker</a> on Learn.co and start learning to code for free.</p>
