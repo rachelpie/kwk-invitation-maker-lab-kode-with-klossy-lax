@@ -2,9 +2,7 @@
 
 ## Met Gala Invitation Maker
 
-<style type="text/css">
-      img {margin-bottom: 20px}
-</style>
+
 
 <img src="https://s3.amazonaws.com/upperline/curriculum-assets/metGala.png" align="left" hspace="10">
 
