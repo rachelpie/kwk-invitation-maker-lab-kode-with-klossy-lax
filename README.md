@@ -112,7 +112,6 @@ Use string interpolation and the variables you just created to customize the old
 ### S-T-R-E-T-C-H Challenges!
 If you've made this far, here are some additional challenges for you to complete:
 
-1.  What if MoMa wants the day of the week to be IN ALL CAPS in order to emphasize that in 2017 the gala will be held on FRIDAY instead of Saturday.  How can you do this? (Avoid just typing FRIDAY in replace of Friday, use a built in Ruby Method.)
-2.  Now that day is in all caps  MoMa decides they don't like it and only wants you to capitalize the first letter.  How can you do this?
-3.  Next MoMa doesn't want the date and day to be strings. They want to turn them into numbers.  Can you fix this for them?
-
+1.  What if the Met wants the day of the week to be IN ALL CAPS in order to emphasize that in 2017 the gala will be held on FRIDAY instead of Saturday.  How can you do this? (Avoid just typing FRIDAY in replace of Friday, use a built in Ruby Method.)
+2.  Now that the day is in all caps, the Met decides they don't like it and only want you to capitalize the first letter.  How can you do this?
+3. Using the `gets` command, create an interactive invitation maker that prompts the user for the information about the event that they are putting on and then returns the text of the invitation.
