@@ -6,7 +6,7 @@
 
 <img src="https://s3.amazonaws.com/upperline/curriculum-assets/metGala.png" align="left" hspace="10">
 
-
+<br>
 
 The Met Gala is rapidly approaching and that means invitations have to go out as soon as possible! Celebrities are eagerly waiting to see if they'll get the invite - who will be on the guest list for this year's hottest event?
 
